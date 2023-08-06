@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.StartPage">
+    <StackLayout BackgroundColor="White">
+        <Button Text="Close app" TextColor="Black" BackgroundColor="Red" Clicked="Button_Clicked" HorizontalOptions="End"></Button>
+        <Label Text="Registrate" TextColor="Black" Background="White" HorizontalOptions="Center"></Label>
+        <Entry Text="Login"  BackgroundColor="GreenYellow" TextColor="Black" HorizontalOptions="Start">
+        </Entry>
+        <Entry Text="Passwowrd" IsPassword="True" BackgroundColor="GreenYellow" TextColor="Black" HorizontalOptions="Start">
+        </Entry>
+        <StackLayout Orientation="Horizontal">
+            <CheckBox></CheckBox>
+            <Label Text="Remember me"></Label>
+        </StackLayout>
+        <Button Clicked="Button_Clicked_1" Text="Create Account" TextColor="Black" BackgroundColor="LightGreen"></Button>
+    </StackLayout>
+</ContentPage>
