@@ -15,12 +15,12 @@ namespace App1
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void Exit_Clicked(object sender, EventArgs e)
         {
             Environment.Exit(0);
         }
 
-        private async void Button_Clicked_1(object sender, EventArgs e)
+        private async void Button_Clicked(object sender, EventArgs e)
         {
             await DisplayAlert("Registrate","You create accont","OK");
         }
